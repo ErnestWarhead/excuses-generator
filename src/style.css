@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    }
+    div {
+    position: relative;
+    margin: 0;
+    top: 5vw;
+    left: 5vw;
+    width: 80vw;
+    height: 45vw;
+    background-image: url("/src/assets/img/Lazy.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 10vw;
+    }
+    h1 {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 5vw;
+    position: absolute;
+    left: 2vw;
+    width: 90%;
+    border-radius: 3vw;
+    background-color: rgba(255,255,255,0.3);
+    border: 0.05vw red solid;
+    }
+    button {
+    position: absolute;
+    left: 30vw;
+    bottom: 3vw;
+    width: 30vw;
+    height: 8vw;
+    font-size: 4vw;
+    }
+    button:active {
+    background-color: grey;
+    }
